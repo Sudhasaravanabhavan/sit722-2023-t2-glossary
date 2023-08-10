@@ -16,7 +16,7 @@ const itemList = [ ['1', 'Devops', 'Developers and operations (dev and ops) work
 ]; 
 
 /* GET home page. */
-router.get('/', function(req, res, next) {res.render('index', { title: 'Express', items: itemList });
+router.get('/', function(req, res, next) {res.render('index', { title: 'SIT722-2023-T2-Glossary', items: itemList });
 });
 
 module.exports = router;
